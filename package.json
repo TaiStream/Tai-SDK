@@ -1,0 +1,27 @@
+{
+    "name": "@tai-network/sdk",
+    "version": "0.1.0",
+    "description": "Developer SDK for Tai Network - Decentralized Video Infrastructure on Walrus",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "keywords": [
+        "tai",
+        "walrus",
+        "sui",
+        "video",
+        "decentralized",
+        "streaming"
+    ],
+    "author": "Tai Network",
+    "license": "MIT",
+    "dependencies": {
+        "bs58": "^5.0.0"
+    },
+    "peerDependencies": {
+        "@mysten/sui.js": "^0.38.0"
+    }
+}
